@@ -20,11 +20,6 @@ namespace inClassLab.Controllers
             return View();
         }
 
-        public IActionResult Nam()
-        {
-            return View();
-        }
-
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
